@@ -905,6 +905,7 @@ MonoBehaviour:
   transitionDuration: 0
   fadeDuration: 1.75
   delayBeforeFade: 0
+  _clip: {fileID: 8300000, guid: f4c57b3ca382e624780503d81d415763, type: 3}
 --- !u!1 &896476811
 GameObject:
   m_ObjectHideFlags: 0
@@ -6413,6 +6414,7 @@ MonoBehaviour:
   transitionDuration: 0
   fadeDuration: 1.75
   delayBeforeFade: 0
+  _clip: {fileID: 8300000, guid: 8de5a2a7acb02ef41884045bf30b8cf1, type: 3}
 --- !u!1 &1378698817
 GameObject:
   m_ObjectHideFlags: 0
@@ -7117,6 +7119,7 @@ MonoBehaviour:
   transitionDuration: 0
   fadeDuration: 1.75
   delayBeforeFade: 0
+  _clip: {fileID: 8300000, guid: b02af946b736f2b4897327ea42c6462a, type: 3}
 --- !u!1 &1898131740
 GameObject:
   m_ObjectHideFlags: 0
@@ -7278,6 +7281,7 @@ MonoBehaviour:
   transitionDuration: 0
   fadeDuration: 1.75
   delayBeforeFade: 0
+  _clip: {fileID: 8300000, guid: f20ca5be2c021a74a94145f765c2af9e, type: 3}
 --- !u!1 &1935564226
 GameObject:
   m_ObjectHideFlags: 0
@@ -7465,6 +7469,7 @@ MonoBehaviour:
   transitionDuration: 0
   fadeDuration: 1.75
   delayBeforeFade: 0
+  _clip: {fileID: 8300000, guid: 8b9e2c417955d1946a72a3d7a3c94405, type: 3}
 --- !u!1 &2050572132
 GameObject:
   m_ObjectHideFlags: 0

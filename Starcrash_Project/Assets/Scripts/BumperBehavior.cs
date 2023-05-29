@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class ResonateEffect : MonoBehaviour
+public class BumperBehavior : MonoBehaviour
 {
     [SerializeField] Color32 restColor = new Color32(255, 255, 255, 0);
     [SerializeField] Color32 activeColor = new Color32(255, 255, 255, 255);
     [SerializeField] float transitionDuration = 0f; // Duration of the color transition in seconds
     [SerializeField] float fadeDuration = 3f; // Duration of the fade back to black in seconds
     [SerializeField] float delayBeforeFade = 0f; // Delay before the fade starts in seconds
+    [SerializeField] private AudioClip _clip;
 
     private SpriteRenderer spriteRenderer;
     private Color32 initialColor;
@@ -33,7 +34,9 @@ public class ResonateEffect : MonoBehaviour
             targetColor = activeColor;
             transitionStartTime = Time.time;
             fadeStartTime = transitionStartTime + delayBeforeFade;
+            AudioSource.PlayClipAtPoint(_clip, transform.position);
             Debug.Log("Bumper Hit");
+            
         }
     }
 
