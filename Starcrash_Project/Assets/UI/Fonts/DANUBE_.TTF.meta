@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5b8426fc748029a4a815ff7d8a80a662
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Danube
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f7d02d2938af63b46b9d3743a5658621, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
